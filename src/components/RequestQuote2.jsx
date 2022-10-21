@@ -194,6 +194,7 @@ const RequestQuote2 = () => {
                 <input
                   type="text"
                   id="product_details"
+                  autoComplete="off"
                   class="text-md text-gray-900  block w-full p-2.5 focus:outline-none "
                   placeholder="Enter commodity type or HS code"
                   required
@@ -292,6 +293,7 @@ const RequestQuote2 = () => {
                 <input
                   type="text"
                   id="location_from"
+                  autoComplete="off"
                   onChange={(e) => {
                     setCityQuery1(e.target.value);
                   }}
@@ -333,6 +335,7 @@ const RequestQuote2 = () => {
                 <input
                   type="text"
                   id="location_to"
+                  autoComplete="off"
                   onChange={(e) => setCityQuery2(e.target.value)}
                   class="bg-white rounded-sm border border-gray-300 text-gray-900 text-sm focus:outline-[#4F46E5] hover:border-[#4F46E5] block w-full p-2.5 mb-2"
                   placeholder="City, Port"
